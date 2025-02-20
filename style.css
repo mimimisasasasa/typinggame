@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#timer-container {
+    width: 80%;
+    height: 20px;
+    background-color: #ddd;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#time-bar {
+    width: 100%;
+    height: 100%;
+    background-color: #4CAF50;
+    transition: width 1s linear;
+}
+
+#word-display {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#input-field {
+    padding: 10px;
+    font-size: 18px;
+}
+
+#score {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#start-screen, #game-over-screen {
+    display: none;
+}
+
+/* スタート画面 */
+#start-screen {
+    display: block;
+}
+
+/* ゲーム画面 */
+#game-screen p {
+    font-size: 24px;
+}
+
+#input-field {
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* ゲームオーバー画面 */
+#game-over-screen h2 {
+    color: red;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
