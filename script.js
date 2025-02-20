@@ -15,10 +15,11 @@ let currentWord = "";
 let timeLeft = 10;
 let timer;
 
-document.body.style.backgroundImage = "url('assets\haikei_hanagara.png')";
-document.body.style.backgroundSize = "cover";
-document.body.style.backgroundPosition = "center";
-document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundImage = "url('haikei_hanagara.png')";
+document.body.style.backgroundSize = "auto 120%"; // 高さを120%に拡大
+document.body.style.backgroundPosition = "center bottom";
+document.body.style.backgroundRepeat = "repeat";
+
 
 document.addEventListener("DOMContentLoaded", () => {
     startScreen.style.display = "block";
