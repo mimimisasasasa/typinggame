@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイピングゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen">
+        <h1>タイピングゲーム</h1>
+        <button id="start-button">スタート</button>
+    </div>
+
+    <!-- ゲーム画面 -->
+    <div id="game-screen">
+        <div id="timer-container">
+            <div id="time-bar"></div>
+        </div>
+        <p id="timer">Time: 10s</p>
+        <p id="word-display"></p>
+        <input type="text" id="input-field" autofocus>
+        <p id="score">Score: 0</p>
+    </div>
+
+    <!-- ゲームオーバー画面 -->
+    <div id="game-over-screen">
+        <h1>タイピングゲーム</h1>
+        <h2>ゲームオーバー</h2>
+        <p id="final-score"></p>
+        <button id="restart-button">リスタート</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
